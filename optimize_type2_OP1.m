@@ -1,4 +1,4 @@
-function J= optimize_type2(g)
+function J= optimize_type2_OP1(g)
 
 xxsimSetParameters('Submodel1.control1.Se1.a1',g(1));
 xxsimSetParameters('Submodel1.control1.Se1.a2',g(2));
