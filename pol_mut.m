@@ -1,6 +1,4 @@
 % Polynomial Mutation Operator
-% Deb (2001, Wiley multi-objective optimization book)
-%
 function [pop_mut, nrealmut] = pol_mut( pop_xover, p_mut, nrealmut, eta_m, Xmin, Xmax )
 [N, nreal] = size(pop_xover); % Population size & Number of variables
 %                              %

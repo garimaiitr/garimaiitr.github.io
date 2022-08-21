@@ -2,15 +2,6 @@
 %   Single Objective Genetic Algorithm
 %   with Real Parameter Handling using SBX
 %   and Polynomial Mutation + Elite Preserv.
-%
-%   Date: 16 May 2014
-%   Computational Optimization and
-%   Innovation Laboratory (COIN)
-%   http://www.egr.msu.edu/~kdeb
-%   Email: kdeb@egr.msu.edu
-%
-%   Michigan State University (MSU)
-%   Electrical and Computer Engineering
 % -----------------------------------------------------------------------
 %clear all; close all; clc; format short g;
 seed = 0;
