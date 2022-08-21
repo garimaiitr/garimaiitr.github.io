@@ -62,14 +62,14 @@ xxsimSetParameters('Submodel7.control8.Se1.a21',g(45));
 xxsimSetParameters('Submodel7.control8.Se1.a22',g(46));
 xxsimSetParameters('Submodel7.control8.Se1.he',g(47));
 xxsimSetParameters('Submodel7.control8.Se1.hde',g(48));
-xxsimSetParameters('S1',g(65));
-xxsimSetParameters('S2',g(66));
-xxsimSetParameters('S3',g(67))
-xxsimSetParameters('S4',g(68));
-xxsimSetParameters('S5',g(69));
-xxsimSetParameters('S6',g(70));
-xxsimSetParameters('S7',g(71));
-xxsimSetParameters('S8',g(72));
+xxsimSetParameters('S1',g(49));
+xxsimSetParameters('S2',g(50));
+xxsimSetParameters('S3',g(51))
+xxsimSetParameters('S4',g(52));
+xxsimSetParameters('S5',g(53));
+xxsimSetParameters('S6',g(54));
+xxsimSetParameters('S7',g(55));
+xxsimSetParameters('S8',g(56));
 xxsimRun(); 
 [q, a]=xxsimGetLogValues({'time','Qt'});
 [v,b]=xxsimGetLogValues({'time','vt'});
