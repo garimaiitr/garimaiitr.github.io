@@ -5,7 +5,7 @@
 - Go to https://www.20sim.com/webhelp/toolboxes_scripting_octavescriptingfolder.php to see the steps for creating the scripting folder.
 - Copy all the files into scripting folder.
 2. **Code for IT2FPD for problem OP1**
-- Open file '9_link_snake_19-03-2021distb(type2-robust).emx' in 20sim software. Go to Settings>Options>Scripting Interface, select all the options in XMLRPC Interface.
+- Open file '9_link_snake_19-03-2021distb(type2-robust).emx' in 20sim software. Go to _Settings>Options>Scripting Interface_, select all the options in XMLRPC Interface.
 - Run file '9_link_snake_19-03-2021distb(type2-robust).emx'.
 - Run file 'FuzzyType2.m' to connect '9_link_snake_19-03-2021distb(type2-robust).emx' to Matlab.
 - Open file 'optimize_type2_OP1.m' in Matlab.
@@ -14,7 +14,7 @@
 - In file 'true_func.m' set f= optimize_type2_OP1(x).
 - Run file 'rGA.m' for running the genetic algorithm.
 4.  **Code for IT2FPD for problem OP2**
-- Open file '9_link_snake_19-03-2021distb(type2-robust).emx' in 20sim software. Go to Settings>Options>Scripting Interface, select all the options in XMLRPC Interface.
+- Open file '9_link_snake_19-03-2021distb(type2-robust).emx' in 20sim software. Go to_Settings>Options>Scripting Interface_, select all the options in XMLRPC Interface.
 - Run file '9_link_snake_19-03-2021distb(type2-robust).emx'.
 - Run file 'FuzzyType2.m' to connect '9_link_snake_19-03-2021distb(type2-robust).emx' to Matlab.
 - Open file 'optimize_type2.m' in Matlab.
@@ -23,7 +23,7 @@
 - In file 'true_func.m' set f= optimize_type2(x).
 - Run file 'rGA.m' for running the genetic algorithm.
 6. **Code for T1FPD**
-- Open file '9_link_snake_23-03-2021distb(type1-robust).emx' in 20sim software. Go to Settings>Options>Scripting Interface, select all the options in XMLRPC Interface.
+- Open file '9_link_snake_23-03-2021distb(type1-robust).emx' in 20sim software. Go to _Settings>Options>Scripting Interface_, select all the options in XMLRPC Interface.
 - Run file '9_link_snake_23-03-2021distb(type1-robust).emx'.
 - Run file 'FuzzyType1.m' to connect '9_link_snake_23-03-2021distb(type1-robust).emx' to Matlab.
 - Open file 'optimize_type1.m' in Matlab.
@@ -31,7 +31,7 @@
 - In file 'true_func.m' set f= optimize_type1(x).
 - Run file 'rGA_(type1).m' for running the genetic algorithm.
 8. **Code for PD**
--  Open file '9_link_snake_26-03-2021distb(pd).emx' in 20sim software. Go to Settings>Options>Scripting Interface, select all the options in XMLRPC Interface.
+-  Open file '9_link_snake_26-03-2021distb(pd).emx' in 20sim software. Go to _Settings>Options>Scripting Interface_, select all the options in XMLRPC Interface.
 - Run file '9_link_snake_26-03-2021distb(pd).emx'.
 - Run file 'Fuzzypd.m' to connect '9_link_snake_26-03-2021distb(pd).emx' to Matlab.
 - Open file 'optimize_PD.m' in Matlab.
