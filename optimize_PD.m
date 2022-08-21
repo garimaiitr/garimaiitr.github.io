@@ -29,6 +29,7 @@ xxsimSetParameters('Submodel7.control7.Gain3.K',g(13));
 xxsimSetParameters('Submodel7.control7.Gain4.K',g(14));
 xxsimSetParameters('Submodel7.control8.Gain3.K',g(15));
 xxsimSetParameters('Submodel7.control8.Gain4.K',g(16));
+xxsimRun();
 [q, a]=xxsimGetLogValues({'time','Qt'});
 [v,b]=xxsimGetLogValues({'time','vt'});
 qmin= min(q);
@@ -51,7 +52,7 @@ for i=1:19
     end
 end
 c =-CV;
-xxsimRun(); 
+ 
 J=xxsimGetValue('J')+(100000*abs(c));
 xxsimClearPreviousRuns();
 end

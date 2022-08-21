@@ -66,6 +66,7 @@ xxsimSetParameters('S5',g(53));
 xxsimSetParameters('S6',g(54));
 xxsimSetParameters('S7',g(55));
 xxsimSetParameters('S8',g(56));
+xxsimRun(); 
 [q, a]=xxsimGetLogValues({'time','Qt'});
 [v,b]=xxsimGetLogValues({'time','vt'});
 qmin= min(q);
@@ -87,7 +88,7 @@ for i=1:19
     end
 end
 c =-CV;
-xxsimRun(); 
+
 J=xxsimGetValue('J')+(100000*abs(c));
 xxsimClearPreviousRuns();
 end

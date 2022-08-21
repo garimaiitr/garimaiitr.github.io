@@ -56,6 +56,7 @@ xxsimSetParameters('S5',g(53));
 xxsimSetParameters('S6',g(54));
 xxsimSetParameters('S7',g(55));
 xxsimSetParameters('S8',g(56));
+xxsimRun();
 [q, a]=xxsimGetLogValues({'time','Qt'});
 [v,b]=xxsimGetLogValues({'time','vt'});
 qmin= min(q);
@@ -63,15 +64,14 @@ qmin1=qmin(2:end);
 qmax= max(q);
 qmax1=qmax(2:end);
 v1=min(v(2:end));
-%q1=q(:,2:end);
+
 lb=-1.6;
 ub=1.6;
-%sz=size(q1);
+
 c1=qmin1-lb;
 c2=-qmax1+ub;
 c3=v1;
-% c4=-qmin1-0.785;
-%c5=qmax1;
+
 c=[c1,c2,c3];
 CV = 0;
 for i=1:19
@@ -80,24 +80,8 @@ for i=1:19
     end
 end
 c =-CV;
-%t=xxsimGetLogValues({'time'});
-%[d,t]=xxsimGetLogValues({'time','amplitude'});
-%t=q(:,1);
-%d1=xxsimGetValue('stop_time');
-%cd=[c4,c5];
-% distb=0;
-% if R2==0.02
-%     for i=1:9
-%         if c4(i)<0
-%             distb=distb-c4(i);
-%         end
-%         %else
-%         %distb=0;
-%         %end
-%     end
-% end
-% d1=distb;
-xxsimRun(); 
+
+ 
 J=xxsimGetValue('J')+(100000*abs(c));%+(100000*(d1));
 xxsimClearPreviousRuns();
 end
