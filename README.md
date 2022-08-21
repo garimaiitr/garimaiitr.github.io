@@ -29,7 +29,8 @@
 - Open file 'optimize_type1.m' in Matlab.
 - Upper and lower bound for the controller and GA parameters are set in file 'setParam1.m'.
 - In file 'true_func.m' set f= optimize_type1(x).
-- Run file 'rGA_(type1).m' for running the genetic algorithm.
+- Open file 'rGA.m' and set [N, k, problem, ncon, Xmin, Xmax, max_gen, p_cross, p_mut, eta_c, eta_m] = setParam1();
+- Run file 'rGA.m' for running the genetic algorithm.
 8. **Code for PD**
 -  Open file '9_link_snake_26-03-2021distb(pd).emx' in 20sim software. Go to _Settings>Options>Scripting Interface_, select all the options in XMLRPC Interface.
 - Run file '9_link_snake_26-03-2021distb(pd).emx'.
@@ -37,5 +38,6 @@
 - Open file 'optimize_PD.m' in Matlab.
 - Upper and lower bound for the controller and GA parameters are set in file 'setParampd.m'.
 - In file 'true_func.m' set f= optimize_PD(x).
-- Run file 'rGA_pd.m' for running the genetic algorithm.
+- Open file 'rGA.m' and set [N, k, problem, ncon, Xmin, Xmax, max_gen, p_cross, p_mut, eta_c, eta_m] = setParampd();
+- Run file 'rGA.m' for running the genetic algorithm.
 
