@@ -1,8 +1,9 @@
 
 1. **Softwares required**
 - Install 20sim (version 4.7 or higher)
-- Copy all the files into scripting folder once the 20sim software is installed.
 - Install Matlab 2019a or higher version.
+- Go to https://www.20sim.com/webhelp/toolboxes_scripting_octavescriptingfolder.php to see the steps for creating the scripting folder.
+- Copy all the files into scripting folder.
 2. **Code for IT2FPD for problem OP1**
 - Open file '9_link_snake_19-03-2021distb(type2-robust).emx' in 20sim software. Go to Settings>Options>Scripting Interface, select all the options in XMLRPC Interface.
 - Run file '9_link_snake_19-03-2021distb(type2-robust).emx'.
