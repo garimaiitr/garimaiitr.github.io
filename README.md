@@ -12,6 +12,7 @@
 - Upper and lower bound for the controller and GA parameters are set in file 'setParam.m'.
 - Set problem = @optimize_type2_OP1 in 'setParam.m'.
 - In file 'true_func.m' set f= optimize_type2_OP1(x).
+- Open file 'rGA.m' and set [N, k, problem, ncon, Xmin, Xmax, max_gen, p_cross, p_mut, eta_c, eta_m] = setParam();
 - Run file 'rGA.m' for running the genetic algorithm.
 4.  **Code for IT2FPD for problem OP2**
 - Open file '9_link_snake_19-03-2021distb(type2-robust).emx' in 20sim software. Go to_Settings>Options>Scripting Interface_, select all the options in XMLRPC Interface.
@@ -21,6 +22,7 @@
 - Upper and lower bound for the controller and GA parameters are set in file 'setParam.m'.
 - Set problem = @optimize_type2 in 'setParam.m'.
 - In file 'true_func.m' set f= optimize_type2(x).
+- Open file 'rGA.m' and set [N, k, problem, ncon, Xmin, Xmax, max_gen, p_cross, p_mut, eta_c, eta_m] = setParam();
 - Run file 'rGA.m' for running the genetic algorithm.
 6. **Code for T1FPD**
 - Open file '9_link_snake_23-03-2021distb(type1-robust).emx' in 20sim software. Go to _Settings>Options>Scripting Interface_, select all the options in XMLRPC Interface.
