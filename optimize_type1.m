@@ -78,15 +78,11 @@ qmin1=qmin(2:end);
 qmax= max(q);
 qmax1=qmax(2:end);
 v1=min(v(2:end));
-%q1=q(:,2:end);
 lb=-1.6;
 ub=1.6;
-%sz=size(q1);
 c1=qmin1-lb;
 c2=-qmax1+ub;
 c3=v1;
-% c4=-qmin1-0.785;
-%c5=qmax1;
 c=[c1,c2,c3];
 CV = 0;
 for i=1:19
@@ -95,7 +91,6 @@ for i=1:19
     end
 end
 c =-CV;
-
 J=xxsimGetValue('J')+(100000*abs(c));
 xxsimClearPreviousRuns();
 end
